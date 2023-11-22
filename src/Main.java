@@ -8,4 +8,4 @@ public class Main {
         double valorGorjeta = (porcentagemGorjeta / 100) * valorConta;
         double totalPago = valorConta + valorGorjeta;
         JOptionPane.showMessageDialog(null,String.format("Valor da gorjeta: $%.2f%nTotal a ser pago: $%.2f", valorGorjeta, totalPago));
-    }}
+    } }
